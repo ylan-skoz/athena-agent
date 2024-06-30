@@ -1,0 +1,231 @@
+2024-06-30 00:22:17,034 - [client_logger] - INFO - Scanning network 192.168.1.0/24 for server
+2024-06-30 00:22:19,293 - [client_logger] - INFO - Potential server found at 192.168.1.1:8883
+2024-06-30 00:22:27,348 - [client_logger] - INFO - Potential server found at 192.168.1.10:8008
+2024-06-30 00:22:27,409 - [client_logger] - INFO - Potential server found at 192.168.1.10:8009
+2024-06-30 00:22:27,448 - [client_logger] - INFO - Potential server found at 192.168.1.10:8012
+2024-06-30 00:22:27,531 - [client_logger] - INFO - Potential server found at 192.168.1.10:8443
+2024-06-30 00:25:49,098 - [client_logger] - INFO - Sequential search for server on network 192.168.1.0/24
+2024-06-30 00:28:52,245 - [client_logger] - INFO - Sequential search for server on local network 192.168.1.0/24
+2024-06-30 00:28:52,246 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 00:28:52,257 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 00:28:52,257 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 00:28:52,257 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 00:28:52,258 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 878949.256554125, 'data': {'temperature': 22.43, 'humidity': 52.66}}
+2024-06-30 00:28:52,258 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 0, "timestamp": 878949.256554125, "data": {"temperature": 22.43, "humidity": 52.66}}}
+2024-06-30 00:28:53,260 - [client_logger] - INFO - Sent: {'message_id': 1, 'timestamp': 878950.258696625, 'data': {'temperature': 25.33, 'humidity': 48.6}}
+2024-06-30 00:28:53,263 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 1, "timestamp": 878950.258696625, "data": {"temperature": 25.33, "humidity": 48.6}}}
+2024-06-30 00:28:54,265 - [client_logger] - INFO - Sent: {'message_id': 2, 'timestamp': 878951.263628291, 'data': {'temperature': 20.91, 'humidity': 43.99}}
+2024-06-30 00:28:54,266 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 2, "timestamp": 878951.263628291, "data": {"temperature": 20.91, "humidity": 43.99}}}
+2024-06-30 00:28:55,267 - [client_logger] - INFO - Sent: {'message_id': 3, 'timestamp': 878952.265354291, 'data': {'temperature': 28.6, 'humidity': 41.39}}
+2024-06-30 00:28:55,268 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 3, "timestamp": 878952.265354291, "data": {"temperature": 28.6, "humidity": 41.39}}}
+2024-06-30 00:28:56,271 - [client_logger] - INFO - Sent: {'message_id': 4, 'timestamp': 878953.269036458, 'data': {'temperature': 20.43, 'humidity': 58.97}}
+2024-06-30 00:28:56,273 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 4, "timestamp": 878953.269036458, "data": {"temperature": 20.43, "humidity": 58.97}}}
+2024-06-30 00:29:48,240 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 00:29:48,251 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 00:29:48,251 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 00:29:48,252 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 00:29:48,252 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 879005.251676625, 'data': {'temperature': 21.95, 'humidity': 45.96}}
+2024-06-30 00:29:48,252 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 0, "timestamp": 879005.251676625, "data": {"temperature": 21.95, "humidity": 45.96}}}
+2024-06-30 00:29:49,254 - [client_logger] - INFO - Sent: {'message_id': 1, 'timestamp': 879006.253670791, 'data': {'temperature': 21.39, 'humidity': 59.05}}
+2024-06-30 00:29:49,257 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 1, "timestamp": 879006.253670791, "data": {"temperature": 21.39, "humidity": 59.05}}}
+2024-06-30 00:29:50,260 - [client_logger] - INFO - Sent: {'message_id': 2, 'timestamp': 879007.259152125, 'data': {'temperature': 27.5, 'humidity': 43.41}}
+2024-06-30 00:29:50,262 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 2, "timestamp": 879007.259152125, "data": {"temperature": 27.5, "humidity": 43.41}}}
+2024-06-30 00:29:51,266 - [client_logger] - INFO - Sent: {'message_id': 3, 'timestamp': 879008.264637708, 'data': {'temperature': 23.01, 'humidity': 59.08}}
+2024-06-30 00:29:51,268 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 3, "timestamp": 879008.264637708, "data": {"temperature": 23.01, "humidity": 59.08}}}
+2024-06-30 00:29:52,271 - [client_logger] - INFO - Sent: {'message_id': 4, 'timestamp': 879009.270410083, 'data': {'temperature': 24.83, 'humidity': 58.36}}
+2024-06-30 00:29:52,273 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 4, "timestamp": 879009.270410083, "data": {"temperature": 24.83, "humidity": 58.36}}}
+2024-06-30 00:41:00,355 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 00:41:00,364 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 00:41:00,364 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 00:41:00,365 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 00:41:00,365 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 879677.373464208, 'data': {'temperature': 28.91, 'humidity': 47.23}}
+2024-06-30 00:41:00,365 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 0, "timestamp": 879677.373464208, "data": {"temperature": 28.91, "humidity": 47.23}}}
+2024-06-30 00:41:01,367 - [client_logger] - INFO - Sent: {'message_id': 1, 'timestamp': 879678.375346208, 'data': {'temperature': 21.61, 'humidity': 50.85}}
+2024-06-30 00:41:01,371 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 1, "timestamp": 879678.375346208, "data": {"temperature": 21.61, "humidity": 50.85}}}
+2024-06-30 00:41:02,373 - [client_logger] - INFO - Sent: {'message_id': 2, 'timestamp': 879679.3813, 'data': {'temperature': 25.6, 'humidity': 56.64}}
+2024-06-30 00:41:02,376 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 2, "timestamp": 879679.3813, "data": {"temperature": 25.6, "humidity": 56.64}}}
+2024-06-30 00:41:03,378 - [client_logger] - INFO - Sent: {'message_id': 3, 'timestamp': 879680.386612125, 'data': {'temperature': 24.0, 'humidity': 51.72}}
+2024-06-30 00:41:03,381 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 3, "timestamp": 879680.386612125, "data": {"temperature": 24.0, "humidity": 51.72}}}
+2024-06-30 00:41:04,383 - [client_logger] - INFO - Sent: {'message_id': 4, 'timestamp': 879681.391261375, 'data': {'temperature': 29.84, 'humidity': 45.71}}
+2024-06-30 00:41:04,385 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 4, "timestamp": 879681.391261375, "data": {"temperature": 29.84, "humidity": 45.71}}}
+2024-06-30 01:03:30,686 - [client_logger] - INFO - Potential server found at 192.168.1.23:8080
+2024-06-30 01:03:30,753 - [client_logger] - ERROR - Server not found on the local network
+2024-06-30 01:03:30,753 - [client_logger] - ERROR - Could not find the server. Make sure it's running and on the same network.
+2024-06-30 01:04:37,325 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 01:04:37,333 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 01:04:37,333 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 01:04:37,334 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 01:04:37,334 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 881094.30745625, 'data': {'temperature': 24.26, 'humidity': 53.33}}
+2024-06-30 01:04:37,334 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 0, "timestamp": 881094.30745625, "data": {"temperature": 24.26, "humidity": 53.33}}}
+2024-06-30 01:04:38,337 - [client_logger] - INFO - Sent: {'message_id': 1, 'timestamp': 881095.309511458, 'data': {'temperature': 24.1, 'humidity': 42.48}}
+2024-06-30 01:04:38,339 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 1, "timestamp": 881095.309511458, "data": {"temperature": 24.1, "humidity": 42.48}}}
+2024-06-30 01:04:39,342 - [client_logger] - INFO - Sent: {'message_id': 2, 'timestamp': 881096.314636333, 'data': {'temperature': 25.13, 'humidity': 46.28}}
+2024-06-30 01:04:39,344 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 2, "timestamp": 881096.314636333, "data": {"temperature": 25.13, "humidity": 46.28}}}
+2024-06-30 01:04:40,347 - [client_logger] - INFO - Sent: {'message_id': 3, 'timestamp': 881097.319743958, 'data': {'temperature': 20.43, 'humidity': 45.21}}
+2024-06-30 01:04:40,352 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 3, "timestamp": 881097.319743958, "data": {"temperature": 20.43, "humidity": 45.21}}}
+2024-06-30 01:04:41,354 - [client_logger] - INFO - Sent: {'message_id': 4, 'timestamp': 881098.327017291, 'data': {'temperature': 24.25, 'humidity': 46.31}}
+2024-06-30 01:04:41,357 - [client_logger] - INFO - Received: {"type": "echo", "data": {"message_id": 4, "timestamp": 881098.327017291, "data": {"temperature": 24.25, "humidity": 46.31}}}
+2024-06-30 01:27:45,503 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 01:27:45,511 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 01:27:45,511 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 01:27:45,512 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 01:27:45,512 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 882482.475094083, 'data': {'temperature': 20.39, 'humidity': 44.72}}
+2024-06-30 01:27:45,513 - [client_logger] - ERROR - WebSocket connection closed unexpectedly: received 1011 (internal error); then sent 1011 (internal error)
+2024-06-30 01:29:07,334 - [client_logger] - INFO - Potential server found at 192.168.1.23:8000
+2024-06-30 01:29:07,345 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.23:8000
+2024-06-30 01:29:07,345 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.23:8000
+2024-06-30 01:29:07,346 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 01:29:07,346 - [client_logger] - INFO - Sent: {'message_id': 0, 'timestamp': 882564.308618666, 'data': {'temperature': 22.09, 'humidity': 41.0}}
+2024-06-30 01:29:09,348 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 01:29:10,351 - [client_logger] - INFO - Sent: {'message_id': 1, 'timestamp': 882567.312889666, 'data': {'temperature': 25.57, 'humidity': 51.13}}
+2024-06-30 01:29:12,353 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 01:29:13,355 - [client_logger] - INFO - Sent: {'message_id': 2, 'timestamp': 882570.317320291, 'data': {'temperature': 29.03, 'humidity': 58.95}}
+2024-06-30 01:29:15,358 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 01:29:16,361 - [client_logger] - INFO - Sent: {'message_id': 3, 'timestamp': 882573.32326275, 'data': {'temperature': 25.39, 'humidity': 48.8}}
+2024-06-30 01:29:18,364 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 01:29:19,366 - [client_logger] - INFO - Sent: {'message_id': 4, 'timestamp': 882576.328368041, 'data': {'temperature': 26.45, 'humidity': 40.62}}
+2024-06-30 01:29:21,369 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:25:00,933 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:25:00,945 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:25:00,945 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:25:00,946 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:25:00,946 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 891942.441069625, 'data': {'temperature': 29.88, 'humidity': 50.69}}
+2024-06-30 12:25:02,948 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:25:03,951 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 891945.4453135, 'data': {'temperature': 20.68, 'humidity': 45.19}}
+2024-06-30 12:25:05,953 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:25:06,956 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 891948.451049666, 'data': {'temperature': 20.25, 'humidity': 40.51}}
+2024-06-30 12:25:08,959 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:25:09,962 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 891951.456555208, 'data': {'temperature': 20.67, 'humidity': 49.91}}
+2024-06-30 12:25:11,964 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:25:12,967 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 891954.461626833, 'data': {'temperature': 25.1, 'humidity': 44.73}}
+2024-06-30 12:25:14,969 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:40:16,717 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:40:16,728 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:40:16,728 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:40:16,729 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:40:16,729 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 892858.182838791, 'data': {'temperature': 27.2, 'humidity': 48.39}}
+2024-06-30 12:40:17,231 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:40:18,234 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 892859.687107291, 'data': {'temperature': 27.13, 'humidity': 47.44}}
+2024-06-30 12:40:18,736 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:40:19,738 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 892861.191946291, 'data': {'temperature': 26.49, 'humidity': 40.5}}
+2024-06-30 12:40:20,240 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:40:21,243 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 892862.696449166, 'data': {'temperature': 28.5, 'humidity': 46.87}}
+2024-06-30 12:40:21,745 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:40:22,749 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 892864.20174025, 'data': {'temperature': 29.98, 'humidity': 48.2}}
+2024-06-30 12:40:23,250 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:19,795 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:42:19,806 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:42:19,806 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:42:19,807 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:42:19,807 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 892981.259797208, 'data': {'temperature': 27.82, 'humidity': 58.42}}
+2024-06-30 12:42:20,309 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:21,312 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 892982.764156333, 'data': {'temperature': 24.81, 'humidity': 56.07}}
+2024-06-30 12:42:21,814 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:22,817 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 892984.269562333, 'data': {'temperature': 25.11, 'humidity': 51.82}}
+2024-06-30 12:42:23,320 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:24,321 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 892985.773548791, 'data': {'temperature': 28.48, 'humidity': 56.77}}
+2024-06-30 12:42:24,825 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:30,538 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:42:30,547 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:42:30,547 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:42:30,548 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:42:30,548 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 892992.000816291, 'data': {'temperature': 21.71, 'humidity': 49.15}}
+2024-06-30 12:42:31,050 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:32,053 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 892993.504843208, 'data': {'temperature': 26.37, 'humidity': 44.9}}
+2024-06-30 12:42:32,555 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:33,557 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 892995.009300125, 'data': {'temperature': 24.62, 'humidity': 48.45}}
+2024-06-30 12:42:34,060 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:35,063 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 892996.514584041, 'data': {'temperature': 28.58, 'humidity': 42.24}}
+2024-06-30 12:42:35,565 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:42:36,567 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 892998.019499458, 'data': {'temperature': 25.42, 'humidity': 59.07}}
+2024-06-30 12:42:37,069 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:43:04,433 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:43:04,441 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:43:04,441 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:43:04,441 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:43:04,441 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 893025.893675625, 'data': {'temperature': 24.92, 'humidity': 58.86}}
+2024-06-30 12:43:04,943 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:43:05,946 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 893027.397442833, 'data': {'temperature': 24.06, 'humidity': 42.22}}
+2024-06-30 12:43:06,448 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:43:07,450 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 893028.901398833, 'data': {'temperature': 20.6, 'humidity': 53.72}}
+2024-06-30 12:43:07,952 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:43:08,955 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 893030.406252, 'data': {'temperature': 29.22, 'humidity': 50.9}}
+2024-06-30 12:43:09,457 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:43:10,459 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 893031.910744375, 'data': {'temperature': 21.59, 'humidity': 56.81}}
+2024-06-30 12:43:10,961 - [client_logger] - WARNING - No response received within timeout.
+2024-06-30 12:45:23,056 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:45:23,064 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:45:23,064 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:45:23,065 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:45:23,065 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 893164.515875541, 'data': {'temperature': 20.71, 'humidity': 49.8}}
+2024-06-30 12:45:23,066 - [client_logger] - ERROR - An error occurred: received 1000 (OK); then sent 1000 (OK)
+2024-06-30 12:46:42,312 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:46:42,320 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:46:42,320 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:46:42,321 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:46:42,321 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 893243.770698041, 'data': {'temperature': 23.08, 'humidity': 56.63}}
+2024-06-30 12:46:42,321 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 0, "status": "received"}
+2024-06-30 12:46:43,323 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 893244.772591125, 'data': {'temperature': 23.8, 'humidity': 48.17}}
+2024-06-30 12:46:43,327 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 1, "status": "received"}
+2024-06-30 12:46:44,329 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 893245.778739875, 'data': {'temperature': 24.98, 'humidity': 45.5}}
+2024-06-30 12:46:44,333 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 2, "status": "received"}
+2024-06-30 12:46:45,335 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 893246.784373625, 'data': {'temperature': 23.62, 'humidity': 50.41}}
+2024-06-30 12:46:45,338 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 3, "status": "received"}
+2024-06-30 12:46:46,340 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 893247.78942675, 'data': {'temperature': 23.26, 'humidity': 42.31}}
+2024-06-30 12:46:46,343 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 4, "status": "received"}
+2024-06-30 12:47:26,895 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 12:47:26,903 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 12:47:26,904 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 12:47:26,904 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 12:47:26,904 - [client_logger] - INFO - Sent: {'id': 0, 'timestamp': 893288.353762375, 'data': {'temperature': 26.74, 'humidity': 42.67}}
+2024-06-30 12:47:26,905 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 0, "status": "received"}
+2024-06-30 12:47:27,907 - [client_logger] - INFO - Sent: {'id': 1, 'timestamp': 893289.35571275, 'data': {'temperature': 28.13, 'humidity': 59.29}}
+2024-06-30 12:47:27,910 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 1, "status": "received"}
+2024-06-30 12:47:28,912 - [client_logger] - INFO - Sent: {'id': 2, 'timestamp': 893290.361112541, 'data': {'temperature': 28.64, 'humidity': 42.45}}
+2024-06-30 12:47:28,916 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 2, "status": "received"}
+2024-06-30 12:47:29,918 - [client_logger] - INFO - Sent: {'id': 3, 'timestamp': 893291.366748833, 'data': {'temperature': 20.25, 'humidity': 47.62}}
+2024-06-30 12:47:29,921 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 3, "status": "received"}
+2024-06-30 12:47:30,923 - [client_logger] - INFO - Sent: {'id': 4, 'timestamp': 893292.371926458, 'data': {'temperature': 28.47, 'humidity': 52.54}}
+2024-06-30 12:47:30,925 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 4, "status": "received"}
+2024-06-30 13:56:18,853 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 13:56:18,864 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 13:56:18,864 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 13:56:18,864 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 13:56:18,865 - [client_logger] - INFO - Sent: {'id': 0, 'type': 'telemetry', 'timestamp': 897420.329064666, 'data': {'temperature': 23.18, 'humidity': 47.96}}
+2024-06-30 13:56:18,865 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 0, "status": "received"}
+2024-06-30 13:56:19,867 - [client_logger] - INFO - Sent: {'id': 1, 'type': 'telemetry', 'timestamp': 897421.330948958, 'data': {'temperature': 22.57, 'humidity': 48.04}}
+2024-06-30 13:56:19,869 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 1, "status": "received"}
+2024-06-30 13:56:20,872 - [client_logger] - INFO - Sent: {'id': 2, 'type': 'telemetry', 'timestamp': 897422.335667875, 'data': {'temperature': 23.36, 'humidity': 53.19}}
+2024-06-30 13:56:20,873 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 2, "status": "received"}
+2024-06-30 13:56:21,876 - [client_logger] - INFO - Sent: {'id': 3, 'type': 'telemetry', 'timestamp': 897423.339857541, 'data': {'temperature': 28.13, 'humidity': 55.08}}
+2024-06-30 13:56:21,877 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 3, "status": "received"}
+2024-06-30 13:56:22,880 - [client_logger] - INFO - Sent: {'id': 4, 'type': 'telemetry', 'timestamp': 897424.343654041, 'data': {'temperature': 29.06, 'humidity': 47.15}}
+2024-06-30 13:56:22,882 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 4, "status": "received"}
+2024-06-30 14:34:28,791 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 14:34:28,799 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 14:34:28,799 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 14:34:28,800 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 14:34:28,800 - [client_logger] - INFO - Sent: {'id': 0, 'type': 'telemetry', 'timestamp': 899710.296622375, 'data': {'temperature': 20.26, 'humidity': 55.57}}
+2024-06-30 14:34:28,800 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 0, "status": "received"}
+2024-06-30 14:34:29,803 - [client_logger] - INFO - Sent: {'id': 1, 'type': 'telemetry', 'timestamp': 899711.298459041, 'data': {'temperature': 23.71, 'humidity': 46.5}}
+2024-06-30 14:34:29,805 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 1, "status": "received"}
+2024-06-30 14:34:30,808 - [client_logger] - INFO - Sent: {'id': 2, 'type': 'telemetry', 'timestamp': 899712.304082458, 'data': {'temperature': 21.42, 'humidity': 52.66}}
+2024-06-30 14:34:30,810 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 2, "status": "received"}
+2024-06-30 14:34:31,813 - [client_logger] - INFO - Sent: {'id': 3, 'type': 'telemetry', 'timestamp': 899713.308911666, 'data': {'temperature': 27.12, 'humidity': 44.73}}
+2024-06-30 14:34:31,815 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 3, "status": "received"}
+2024-06-30 14:34:32,817 - [client_logger] - INFO - Sent: {'id': 4, 'type': 'telemetry', 'timestamp': 899714.313532041, 'data': {'temperature': 29.78, 'humidity': 57.73}}
+2024-06-30 14:34:32,819 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 4, "status": "received"}
+2024-06-30 14:35:12,866 - [client_logger] - INFO - Potential server found at 192.168.1.36:8000
+2024-06-30 14:35:12,874 - [client_logger] - INFO - WebSocket server confirmed at 192.168.1.36:8000
+2024-06-30 14:35:12,874 - [client_logger] - INFO - Attempting to connect to ws://192.168.1.36:8000
+2024-06-30 14:35:12,875 - [client_logger] - INFO - Connected to WebSocket server
+2024-06-30 14:35:12,875 - [client_logger] - INFO - Sent: {'id': 0, 'type': 'telemetry', 'timestamp': 899754.372552791, 'data': {'temperature': 26.58, 'humidity': 58.95}}
+2024-06-30 14:35:12,875 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 0, "status": "received"}
+2024-06-30 14:35:13,878 - [client_logger] - INFO - Sent: {'id': 1, 'type': 'telemetry', 'timestamp': 899755.374243666, 'data': {'temperature': 26.23, 'humidity': 55.17}}
+2024-06-30 14:35:13,880 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 1, "status": "received"}
+2024-06-30 14:35:14,882 - [client_logger] - INFO - Sent: {'id': 2, 'type': 'telemetry', 'timestamp': 899756.37913625, 'data': {'temperature': 25.61, 'humidity': 42.51}}
+2024-06-30 14:35:14,884 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 2, "status": "received"}
+2024-06-30 14:35:15,886 - [client_logger] - INFO - Sent: {'id': 3, 'type': 'telemetry', 'timestamp': 899757.383135291, 'data': {'temperature': 29.72, 'humidity': 56.2}}
+2024-06-30 14:35:15,888 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 3, "status": "received"}
+2024-06-30 14:35:16,891 - [client_logger] - INFO - Sent: {'id': 4, 'type': 'telemetry', 'timestamp': 899758.387488166, 'data': {'temperature': 29.01, 'humidity': 46.59}}
+2024-06-30 14:35:16,892 - [client_logger] - INFO - Received: {"type": "acklowledge", "id": 4, "status": "received"}

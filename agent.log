@@ -1,0 +1,243 @@
+2024-06-29 23:21:53,015 - agent_logger - INFO - hello
+2024-06-29 23:22:16,981 - agent_logger - INFO - hello
+2024-06-29 23:22:16,981 - agent_logger - CRITICAL - no
+2024-06-29 23:55:45,723 - agent_logger - INFO - WebSocket server started on ws://localhost:8765
+2024-06-29 23:56:02,573 - agent_logger - INFO - Received data: {'message_id': 0, 'timestamp': 876979.53872075, 'data': {'temperature': 24.95, 'humidity': 45.83}}
+2024-06-29 23:56:37,251 - agent_logger - INFO - Received data: {'message_id': 0, 'timestamp': 877014.216819833, 'data': {'temperature': 22.26, 'humidity': 52.67}}
+2024-06-30 00:04:48,554 - agent_logger - INFO - WebSocket server started on ws://192.168.1.23:65007
+2024-06-30 00:18:24,568 - agent_logger - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 00:19:51,730 - [agent_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 00:28:52,258 - [agent_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 878949.256554125, 'data': {'temperature': 22.43, 'humidity': 52.66}}
+2024-06-30 00:28:53,261 - [agent_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 878950.258696625, 'data': {'temperature': 25.33, 'humidity': 48.6}}
+2024-06-30 00:28:54,265 - [agent_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 878951.263628291, 'data': {'temperature': 20.91, 'humidity': 43.99}}
+2024-06-30 00:28:55,267 - [agent_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 878952.265354291, 'data': {'temperature': 28.6, 'humidity': 41.39}}
+2024-06-30 00:28:56,271 - [agent_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 878953.269036458, 'data': {'temperature': 20.43, 'humidity': 58.97}}
+2024-06-30 00:29:48,252 - [agent_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 879005.251676625, 'data': {'temperature': 21.95, 'humidity': 45.96}}
+2024-06-30 00:29:49,255 - [agent_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 879006.253670791, 'data': {'temperature': 21.39, 'humidity': 59.05}}
+2024-06-30 00:29:50,261 - [agent_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 879007.259152125, 'data': {'temperature': 27.5, 'humidity': 43.41}}
+2024-06-30 00:29:51,267 - [agent_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 879008.264637708, 'data': {'temperature': 23.01, 'humidity': 59.08}}
+2024-06-30 00:29:52,272 - [agent_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 879009.270410083, 'data': {'temperature': 24.83, 'humidity': 58.36}}
+2024-06-30 00:40:53,645 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 00:40:53,645 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 00:41:00,365 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 879677.373464208, 'data': {'temperature': 28.91, 'humidity': 47.23}}
+2024-06-30 00:41:00,365 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 879677.373464208, 'data': {'temperature': 28.91, 'humidity': 47.23}}
+2024-06-30 00:41:01,368 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 879678.375346208, 'data': {'temperature': 21.61, 'humidity': 50.85}}
+2024-06-30 00:41:01,368 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 879678.375346208, 'data': {'temperature': 21.61, 'humidity': 50.85}}
+2024-06-30 00:41:02,374 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 879679.3813, 'data': {'temperature': 25.6, 'humidity': 56.64}}
+2024-06-30 00:41:02,374 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 879679.3813, 'data': {'temperature': 25.6, 'humidity': 56.64}}
+2024-06-30 00:41:03,379 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 879680.386612125, 'data': {'temperature': 24.0, 'humidity': 51.72}}
+2024-06-30 00:41:03,379 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 879680.386612125, 'data': {'temperature': 24.0, 'humidity': 51.72}}
+2024-06-30 00:41:04,383 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 879681.391261375, 'data': {'temperature': 29.84, 'humidity': 45.71}}
+2024-06-30 00:41:04,383 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 879681.391261375, 'data': {'temperature': 29.84, 'humidity': 45.71}}
+2024-06-30 01:03:27,016 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:49384
+2024-06-30 01:03:27,016 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:49384
+2024-06-30 01:04:33,503 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:04:33,503 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:04:37,334 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 881094.30745625, 'data': {'temperature': 24.26, 'humidity': 53.33}}
+2024-06-30 01:04:37,334 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 881094.30745625, 'data': {'temperature': 24.26, 'humidity': 53.33}}
+2024-06-30 01:04:38,338 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 881095.309511458, 'data': {'temperature': 24.1, 'humidity': 42.48}}
+2024-06-30 01:04:38,338 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 881095.309511458, 'data': {'temperature': 24.1, 'humidity': 42.48}}
+2024-06-30 01:04:39,342 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 881096.314636333, 'data': {'temperature': 25.13, 'humidity': 46.28}}
+2024-06-30 01:04:39,342 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 881096.314636333, 'data': {'temperature': 25.13, 'humidity': 46.28}}
+2024-06-30 01:04:40,347 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 881097.319743958, 'data': {'temperature': 20.43, 'humidity': 45.21}}
+2024-06-30 01:04:40,347 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 881097.319743958, 'data': {'temperature': 20.43, 'humidity': 45.21}}
+2024-06-30 01:04:41,355 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 881098.327017291, 'data': {'temperature': 24.25, 'humidity': 46.31}}
+2024-06-30 01:04:41,355 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 881098.327017291, 'data': {'temperature': 24.25, 'humidity': 46.31}}
+2024-06-30 01:27:40,099 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:27:40,099 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:27:45,512 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 882482.475094083, 'data': {'temperature': 20.39, 'humidity': 44.72}}
+2024-06-30 01:27:45,512 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 882482.475094083, 'data': {'temperature': 20.39, 'humidity': 44.72}}
+2024-06-30 01:28:12,688 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:28:12,688 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.23:8000
+2024-06-30 01:29:07,346 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 882564.308618666, 'data': {'temperature': 22.09, 'humidity': 41.0}}
+2024-06-30 01:29:07,346 - [socket_logger] - INFO - Received data: {'message_id': 0, 'timestamp': 882564.308618666, 'data': {'temperature': 22.09, 'humidity': 41.0}}
+2024-06-30 01:29:10,352 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 882567.312889666, 'data': {'temperature': 25.57, 'humidity': 51.13}}
+2024-06-30 01:29:10,352 - [socket_logger] - INFO - Received data: {'message_id': 1, 'timestamp': 882567.312889666, 'data': {'temperature': 25.57, 'humidity': 51.13}}
+2024-06-30 01:29:13,356 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 882570.317320291, 'data': {'temperature': 29.03, 'humidity': 58.95}}
+2024-06-30 01:29:13,356 - [socket_logger] - INFO - Received data: {'message_id': 2, 'timestamp': 882570.317320291, 'data': {'temperature': 29.03, 'humidity': 58.95}}
+2024-06-30 01:29:16,362 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 882573.32326275, 'data': {'temperature': 25.39, 'humidity': 48.8}}
+2024-06-30 01:29:16,362 - [socket_logger] - INFO - Received data: {'message_id': 3, 'timestamp': 882573.32326275, 'data': {'temperature': 25.39, 'humidity': 48.8}}
+2024-06-30 01:29:19,367 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 882576.328368041, 'data': {'temperature': 26.45, 'humidity': 40.62}}
+2024-06-30 01:29:19,367 - [socket_logger] - INFO - Received data: {'message_id': 4, 'timestamp': 882576.328368041, 'data': {'temperature': 26.45, 'humidity': 40.62}}
+2024-06-30 12:21:25,990 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:21:25,990 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:25:00,946 - [socket_logger] - INFO - Received data from 4367287552: {'id': 0, 'timestamp': 891942.441069625, 'data': {'temperature': 29.88, 'humidity': 50.69}}
+2024-06-30 12:25:00,946 - [socket_logger] - INFO - Received data from 4367287552: {'id': 0, 'timestamp': 891942.441069625, 'data': {'temperature': 29.88, 'humidity': 50.69}}
+2024-06-30 12:25:03,952 - [socket_logger] - INFO - Received data from 4367287552: {'id': 1, 'timestamp': 891945.4453135, 'data': {'temperature': 20.68, 'humidity': 45.19}}
+2024-06-30 12:25:03,952 - [socket_logger] - INFO - Received data from 4367287552: {'id': 1, 'timestamp': 891945.4453135, 'data': {'temperature': 20.68, 'humidity': 45.19}}
+2024-06-30 12:25:06,957 - [socket_logger] - INFO - Received data from 4367287552: {'id': 2, 'timestamp': 891948.451049666, 'data': {'temperature': 20.25, 'humidity': 40.51}}
+2024-06-30 12:25:06,957 - [socket_logger] - INFO - Received data from 4367287552: {'id': 2, 'timestamp': 891948.451049666, 'data': {'temperature': 20.25, 'humidity': 40.51}}
+2024-06-30 12:25:09,963 - [socket_logger] - INFO - Received data from 4367287552: {'id': 3, 'timestamp': 891951.456555208, 'data': {'temperature': 20.67, 'humidity': 49.91}}
+2024-06-30 12:25:09,963 - [socket_logger] - INFO - Received data from 4367287552: {'id': 3, 'timestamp': 891951.456555208, 'data': {'temperature': 20.67, 'humidity': 49.91}}
+2024-06-30 12:25:12,967 - [socket_logger] - INFO - Received data from 4367287552: {'id': 4, 'timestamp': 891954.461626833, 'data': {'temperature': 25.1, 'humidity': 44.73}}
+2024-06-30 12:25:12,967 - [socket_logger] - INFO - Received data from 4367287552: {'id': 4, 'timestamp': 891954.461626833, 'data': {'temperature': 25.1, 'humidity': 44.73}}
+2024-06-30 12:40:16,729 - [socket_logger] - INFO - Received data from 4382137840: {'id': 0, 'timestamp': 892858.182838791, 'data': {'temperature': 27.2, 'humidity': 48.39}}
+2024-06-30 12:40:16,729 - [socket_logger] - INFO - Received data from 4382137840: {'id': 0, 'timestamp': 892858.182838791, 'data': {'temperature': 27.2, 'humidity': 48.39}}
+2024-06-30 12:40:18,235 - [socket_logger] - INFO - Received data from 4382137840: {'id': 1, 'timestamp': 892859.687107291, 'data': {'temperature': 27.13, 'humidity': 47.44}}
+2024-06-30 12:40:18,235 - [socket_logger] - INFO - Received data from 4382137840: {'id': 1, 'timestamp': 892859.687107291, 'data': {'temperature': 27.13, 'humidity': 47.44}}
+2024-06-30 12:40:19,739 - [socket_logger] - INFO - Received data from 4382137840: {'id': 2, 'timestamp': 892861.191946291, 'data': {'temperature': 26.49, 'humidity': 40.5}}
+2024-06-30 12:40:19,739 - [socket_logger] - INFO - Received data from 4382137840: {'id': 2, 'timestamp': 892861.191946291, 'data': {'temperature': 26.49, 'humidity': 40.5}}
+2024-06-30 12:40:21,244 - [socket_logger] - INFO - Received data from 4382137840: {'id': 3, 'timestamp': 892862.696449166, 'data': {'temperature': 28.5, 'humidity': 46.87}}
+2024-06-30 12:40:21,244 - [socket_logger] - INFO - Received data from 4382137840: {'id': 3, 'timestamp': 892862.696449166, 'data': {'temperature': 28.5, 'humidity': 46.87}}
+2024-06-30 12:40:22,749 - [socket_logger] - INFO - Received data from 4382137840: {'id': 4, 'timestamp': 892864.20174025, 'data': {'temperature': 29.98, 'humidity': 48.2}}
+2024-06-30 12:40:22,749 - [socket_logger] - INFO - Received data from 4382137840: {'id': 4, 'timestamp': 892864.20174025, 'data': {'temperature': 29.98, 'humidity': 48.2}}
+2024-06-30 12:42:19,807 - [socket_logger] - INFO - Received data from 4382140816: {'id': 0, 'timestamp': 892981.259797208, 'data': {'temperature': 27.82, 'humidity': 58.42}}
+2024-06-30 12:42:19,807 - [socket_logger] - INFO - Received data from 4382140816: {'id': 0, 'timestamp': 892981.259797208, 'data': {'temperature': 27.82, 'humidity': 58.42}}
+2024-06-30 12:42:21,313 - [socket_logger] - INFO - Received data from 4382140816: {'id': 1, 'timestamp': 892982.764156333, 'data': {'temperature': 24.81, 'humidity': 56.07}}
+2024-06-30 12:42:21,313 - [socket_logger] - INFO - Received data from 4382140816: {'id': 1, 'timestamp': 892982.764156333, 'data': {'temperature': 24.81, 'humidity': 56.07}}
+2024-06-30 12:42:22,819 - [socket_logger] - INFO - Received data from 4382140816: {'id': 2, 'timestamp': 892984.269562333, 'data': {'temperature': 25.11, 'humidity': 51.82}}
+2024-06-30 12:42:22,819 - [socket_logger] - INFO - Received data from 4382140816: {'id': 2, 'timestamp': 892984.269562333, 'data': {'temperature': 25.11, 'humidity': 51.82}}
+2024-06-30 12:42:24,323 - [socket_logger] - INFO - Received data from 4382140816: {'id': 3, 'timestamp': 892985.773548791, 'data': {'temperature': 28.48, 'humidity': 56.77}}
+2024-06-30 12:42:24,323 - [socket_logger] - INFO - Received data from 4382140816: {'id': 3, 'timestamp': 892985.773548791, 'data': {'temperature': 28.48, 'humidity': 56.77}}
+2024-06-30 12:42:28,303 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:42:28,303 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:42:30,548 - [socket_logger] - INFO - Received data from 4392654976: {'id': 0, 'timestamp': 892992.000816291, 'data': {'temperature': 21.71, 'humidity': 49.15}}
+2024-06-30 12:42:30,548 - [socket_logger] - INFO - Received data from 4392654976: {'id': 0, 'timestamp': 892992.000816291, 'data': {'temperature': 21.71, 'humidity': 49.15}}
+2024-06-30 12:42:32,054 - [socket_logger] - INFO - Received data from 4392654976: {'id': 1, 'timestamp': 892993.504843208, 'data': {'temperature': 26.37, 'humidity': 44.9}}
+2024-06-30 12:42:32,054 - [socket_logger] - INFO - Received data from 4392654976: {'id': 1, 'timestamp': 892993.504843208, 'data': {'temperature': 26.37, 'humidity': 44.9}}
+2024-06-30 12:42:33,558 - [socket_logger] - INFO - Received data from 4392654976: {'id': 2, 'timestamp': 892995.009300125, 'data': {'temperature': 24.62, 'humidity': 48.45}}
+2024-06-30 12:42:33,558 - [socket_logger] - INFO - Received data from 4392654976: {'id': 2, 'timestamp': 892995.009300125, 'data': {'temperature': 24.62, 'humidity': 48.45}}
+2024-06-30 12:42:35,064 - [socket_logger] - INFO - Received data from 4392654976: {'id': 3, 'timestamp': 892996.514584041, 'data': {'temperature': 28.58, 'humidity': 42.24}}
+2024-06-30 12:42:35,064 - [socket_logger] - INFO - Received data from 4392654976: {'id': 3, 'timestamp': 892996.514584041, 'data': {'temperature': 28.58, 'humidity': 42.24}}
+2024-06-30 12:42:36,568 - [socket_logger] - INFO - Received data from 4392654976: {'id': 4, 'timestamp': 892998.019499458, 'data': {'temperature': 25.42, 'humidity': 59.07}}
+2024-06-30 12:42:36,568 - [socket_logger] - INFO - Received data from 4392654976: {'id': 4, 'timestamp': 892998.019499458, 'data': {'temperature': 25.42, 'humidity': 59.07}}
+2024-06-30 12:43:02,360 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:43:02,360 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:43:04,442 - [socket_logger] - INFO - Received data from 4354063440: {'id': 0, 'timestamp': 893025.893675625, 'data': {'temperature': 24.92, 'humidity': 58.86}}
+2024-06-30 12:43:04,442 - [socket_logger] - INFO - Received data from 4354063440: {'id': 0, 'timestamp': 893025.893675625, 'data': {'temperature': 24.92, 'humidity': 58.86}}
+2024-06-30 12:43:05,947 - [socket_logger] - INFO - Received data from 4354063440: {'id': 1, 'timestamp': 893027.397442833, 'data': {'temperature': 24.06, 'humidity': 42.22}}
+2024-06-30 12:43:05,947 - [socket_logger] - INFO - Received data from 4354063440: {'id': 1, 'timestamp': 893027.397442833, 'data': {'temperature': 24.06, 'humidity': 42.22}}
+2024-06-30 12:43:07,451 - [socket_logger] - INFO - Received data from 4354063440: {'id': 2, 'timestamp': 893028.901398833, 'data': {'temperature': 20.6, 'humidity': 53.72}}
+2024-06-30 12:43:07,451 - [socket_logger] - INFO - Received data from 4354063440: {'id': 2, 'timestamp': 893028.901398833, 'data': {'temperature': 20.6, 'humidity': 53.72}}
+2024-06-30 12:43:08,956 - [socket_logger] - INFO - Received data from 4354063440: {'id': 3, 'timestamp': 893030.406252, 'data': {'temperature': 29.22, 'humidity': 50.9}}
+2024-06-30 12:43:08,956 - [socket_logger] - INFO - Received data from 4354063440: {'id': 3, 'timestamp': 893030.406252, 'data': {'temperature': 29.22, 'humidity': 50.9}}
+2024-06-30 12:43:10,460 - [socket_logger] - INFO - Received data from 4354063440: {'id': 4, 'timestamp': 893031.910744375, 'data': {'temperature': 21.59, 'humidity': 56.81}}
+2024-06-30 12:43:10,460 - [socket_logger] - INFO - Received data from 4354063440: {'id': 4, 'timestamp': 893031.910744375, 'data': {'temperature': 21.59, 'humidity': 56.81}}
+2024-06-30 12:45:21,465 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:45:21,465 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:45:23,065 - [socket_logger] - INFO - Received data from 4371204624: {'id': 0, 'timestamp': 893164.515875541, 'data': {'temperature': 20.71, 'humidity': 49.8}}
+2024-06-30 12:45:23,065 - [socket_logger] - INFO - Received data from 4371204624: {'id': 0, 'timestamp': 893164.515875541, 'data': {'temperature': 20.71, 'humidity': 49.8}}
+2024-06-30 12:45:23,065 - [socket_logger] - ERROR - Error when receiving message from client 4371204624
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 53, in handle_client
+    await self.broadcast(json.dumps(acknowledge))
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 67, in broadcast
+    await asyncio.gather(*[client.send(message) for client in self.clients])
+                           ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'send'
+2024-06-30 12:45:23,065 - [socket_logger] - ERROR - Error when receiving message from client 4371204624
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 53, in handle_client
+    await self.broadcast(json.dumps(acknowledge))
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 67, in broadcast
+    await asyncio.gather(*[client.send(message) for client in self.clients])
+                           ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'send'
+2024-06-30 12:46:39,383 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:46:39,383 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:46:42,321 - [socket_logger] - INFO - Received data from 4378002976: {'id': 0, 'timestamp': 893243.770698041, 'data': {'temperature': 23.08, 'humidity': 56.63}}
+2024-06-30 12:46:42,321 - [socket_logger] - INFO - Received data from 4378002976: {'id': 0, 'timestamp': 893243.770698041, 'data': {'temperature': 23.08, 'humidity': 56.63}}
+2024-06-30 12:46:43,324 - [socket_logger] - INFO - Received data from 4378002976: {'id': 1, 'timestamp': 893244.772591125, 'data': {'temperature': 23.8, 'humidity': 48.17}}
+2024-06-30 12:46:43,324 - [socket_logger] - INFO - Received data from 4378002976: {'id': 1, 'timestamp': 893244.772591125, 'data': {'temperature': 23.8, 'humidity': 48.17}}
+2024-06-30 12:46:44,330 - [socket_logger] - INFO - Received data from 4378002976: {'id': 2, 'timestamp': 893245.778739875, 'data': {'temperature': 24.98, 'humidity': 45.5}}
+2024-06-30 12:46:44,330 - [socket_logger] - INFO - Received data from 4378002976: {'id': 2, 'timestamp': 893245.778739875, 'data': {'temperature': 24.98, 'humidity': 45.5}}
+2024-06-30 12:46:45,336 - [socket_logger] - INFO - Received data from 4378002976: {'id': 3, 'timestamp': 893246.784373625, 'data': {'temperature': 23.62, 'humidity': 50.41}}
+2024-06-30 12:46:45,336 - [socket_logger] - INFO - Received data from 4378002976: {'id': 3, 'timestamp': 893246.784373625, 'data': {'temperature': 23.62, 'humidity': 50.41}}
+2024-06-30 12:46:46,341 - [socket_logger] - INFO - Received data from 4378002976: {'id': 4, 'timestamp': 893247.78942675, 'data': {'temperature': 23.26, 'humidity': 42.31}}
+2024-06-30 12:46:46,341 - [socket_logger] - INFO - Received data from 4378002976: {'id': 4, 'timestamp': 893247.78942675, 'data': {'temperature': 23.26, 'humidity': 42.31}}
+2024-06-30 12:47:23,783 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:47:23,783 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 12:47:26,904 - [socket_logger] - INFO - Received data from 4392041792: {'id': 0, 'timestamp': 893288.353762375, 'data': {'temperature': 26.74, 'humidity': 42.67}}
+2024-06-30 12:47:26,904 - [socket_logger] - INFO - Received data from 4392041792: {'id': 0, 'timestamp': 893288.353762375, 'data': {'temperature': 26.74, 'humidity': 42.67}}
+2024-06-30 12:47:27,908 - [socket_logger] - INFO - Received data from 4392041792: {'id': 1, 'timestamp': 893289.35571275, 'data': {'temperature': 28.13, 'humidity': 59.29}}
+2024-06-30 12:47:27,908 - [socket_logger] - INFO - Received data from 4392041792: {'id': 1, 'timestamp': 893289.35571275, 'data': {'temperature': 28.13, 'humidity': 59.29}}
+2024-06-30 12:47:28,913 - [socket_logger] - INFO - Received data from 4392041792: {'id': 2, 'timestamp': 893290.361112541, 'data': {'temperature': 28.64, 'humidity': 42.45}}
+2024-06-30 12:47:28,913 - [socket_logger] - INFO - Received data from 4392041792: {'id': 2, 'timestamp': 893290.361112541, 'data': {'temperature': 28.64, 'humidity': 42.45}}
+2024-06-30 12:47:29,919 - [socket_logger] - INFO - Received data from 4392041792: {'id': 3, 'timestamp': 893291.366748833, 'data': {'temperature': 20.25, 'humidity': 47.62}}
+2024-06-30 12:47:29,919 - [socket_logger] - INFO - Received data from 4392041792: {'id': 3, 'timestamp': 893291.366748833, 'data': {'temperature': 20.25, 'humidity': 47.62}}
+2024-06-30 12:47:30,924 - [socket_logger] - INFO - Received data from 4392041792: {'id': 4, 'timestamp': 893292.371926458, 'data': {'temperature': 28.47, 'humidity': 52.54}}
+2024-06-30 12:47:30,924 - [socket_logger] - INFO - Received data from 4392041792: {'id': 4, 'timestamp': 893292.371926458, 'data': {'temperature': 28.47, 'humidity': 52.54}}
+2024-06-30 13:13:08,638 - [socket_logger] - INFO - Received data from 4392241056: {'hello': 'hi'}
+2024-06-30 13:13:08,638 - [socket_logger] - INFO - Received data from 4392241056: {'hello': 'hi'}
+2024-06-30 13:13:08,642 - [socket_logger] - ERROR - Error when receiving message from client 4392241056
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                                      ^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:13:08,642 - [socket_logger] - ERROR - Error when receiving message from client 4392241056
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                                      ^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:14:17,387 - [socket_logger] - INFO - Received data from 4391381824: {'hello': 'hi'}
+2024-06-30 13:14:17,387 - [socket_logger] - INFO - Received data from 4391381824: {'hello': 'hi'}
+2024-06-30 13:14:17,391 - [socket_logger] - ERROR - Error when receiving message from client 4391381824
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                                      ^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:14:17,391 - [socket_logger] - ERROR - Error when receiving message from client 4391381824
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                                      ^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:15:15,173 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:15:15,173 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:15:27,003 - [socket_logger] - INFO - Received data from 4357795920: {'hello': 'hi'}
+2024-06-30 13:15:27,003 - [socket_logger] - INFO - Received data from 4357795920: {'hello': 'hi'}
+2024-06-30 13:15:27,005 - [socket_logger] - ERROR - Error when receiving message from client 4357795920
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                          ~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:15:27,005 - [socket_logger] - ERROR - Error when receiving message from client 4357795920
+Traceback (most recent call last):
+  File "/Users/ylanrichard/Documents/athena-agent/socket_server.py", line 50, in handle_client
+    MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                          ~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-06-30 13:16:59,576 - [socket_logger] - INFO - Received data from 4339119072: {'hello': 'hi', 'id': '24'}
+2024-06-30 13:16:59,576 - [socket_logger] - INFO - Received data from 4339119072: {'hello': 'hi', 'id': '24'}
+2024-06-30 13:18:20,098 - [socket_logger] - INFO - Received data from 4339119072: {'id': '24', 'type': 'ping'}
+2024-06-30 13:18:20,098 - [socket_logger] - INFO - Received data from 4339119072: {'id': '24', 'type': 'ping'}
+2024-06-30 13:40:51,889 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:40:51,889 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:42:37,777 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:42:37,777 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:46:15,324 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:46:15,324 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:53:22,997 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:53:22,997 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:53:23,992 - [socket_logger] - INFO - hello
+2024-06-30 13:53:23,992 - [socket_logger] - INFO - hello
+2024-06-30 13:53:47,891 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:53:47,891 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:53:48,887 - [socket_logger] - INFO - hello
+2024-06-30 13:53:48,887 - [socket_logger] - INFO - hello
+2024-06-30 13:54:06,361 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:54:06,361 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:54:07,357 - [socket_logger] - INFO - hello
+2024-06-30 13:54:07,357 - [socket_logger] - INFO - hello
+2024-06-30 13:54:24,666 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:54:24,666 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:54:25,662 - [socket_logger] - INFO - hello
+2024-06-30 13:54:25,662 - [socket_logger] - INFO - hello
+2024-06-30 13:55:54,148 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 13:55:55,144 - [socket_logger] - INFO - hello
+2024-06-30 14:31:45,676 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 14:31:46,671 - [socket_logger] - INFO - hello
+2024-06-30 14:32:03,851 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 14:32:04,842 - [socket_logger] - INFO - hello
+2024-06-30 14:32:29,626 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 14:32:30,622 - [socket_logger] - INFO - hello
+2024-06-30 14:34:25,324 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 14:34:26,319 - [socket_logger] - INFO - hello
+2024-06-30 14:35:09,679 - [socket_logger] - INFO - WebSocket server started on ws://192.168.1.36:8000
+2024-06-30 14:35:10,674 - [socket_logger] - INFO - hello
+2024-06-30 14:35:14,880 - [socket_logger] - INFO - Processing batch of 2 messages. Message sent to server is: {'sendDate': '2024-06-30 14:35:14.880330', 'data': [{'id': 0, 'type': 'telemetry', 'timestamp': 899754.372552791, 'data': {'temperature': 26.58, 'humidity': 58.95}}, {'id': 1, 'type': 'telemetry', 'timestamp': 899755.374243666, 'data': {'temperature': 26.23, 'humidity': 55.17}}]}
+2024-06-30 14:35:19,899 - [socket_logger] - INFO - Processing batch of 3 messages. Message sent to server is: {'sendDate': '2024-06-30 14:35:19.899541', 'data': [{'id': 2, 'type': 'telemetry', 'timestamp': 899756.37913625, 'data': {'temperature': 25.61, 'humidity': 42.51}}, {'id': 3, 'type': 'telemetry', 'timestamp': 899757.383135291, 'data': {'temperature': 29.72, 'humidity': 56.2}}, {'id': 4, 'type': 'telemetry', 'timestamp': 899758.387488166, 'data': {'temperature': 29.01, 'humidity': 46.59}}]}
