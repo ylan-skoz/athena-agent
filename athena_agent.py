@@ -5,7 +5,8 @@ from socket_server import SocketServer
 from time import time, sleep
 from datetime import datetime
 from agent_logger import setup_logger
-from webClient import WebClient
+from web_client import WebClient
+from time import sleep
 
 logger = setup_logger('socket_logger', 'agent.log')
 
@@ -19,9 +20,13 @@ class AthenaAgent:
         self.message_process_interval = 5
         self.batch_size = 50
 
-        self.serverUrl = "ws://192.168.1.23/:8005"
-        self.webClient = WebClient(self.serverUrl)
-        self.webClient.start_server_connection()
+        # Webclient
+        self.serverUrl = "ws://192.168.1.23:8085"
+        self.device_id = "d1c6b55d-4770-4f8d-8f7c-6998500a7785"
+        self.api_key = "a415afaf-68d8-4b1c-b09e-42428f64162c"
+        self.webClient = WebClient(server_url=self.serverUrl, device_id=self.device_id, api_key=self.api_key)
+        self.web_client_thread = Thread(target=self.webClient.start, daemon=True)
+
 
     def _run_socket_server(self):
         asyncio.run(self.server.initiate_socket_server())
@@ -71,6 +76,7 @@ class AthenaAgent:
     def start(self):
         self.socket_server_thread.start()
         self.message_processing_threads.start()
+        self.web_client_thread.start()
 
 if __name__ == "__main__":
     agent = AthenaAgent()
