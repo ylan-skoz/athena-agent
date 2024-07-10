@@ -5,6 +5,7 @@ from socket_server import SocketServer
 from time import time, sleep
 from datetime import datetime
 from agent_logger import setup_logger
+from webClient import WebClient
 
 logger = setup_logger('socket_logger', 'agent.log')
 
@@ -18,10 +19,12 @@ class AthenaAgent:
         self.message_process_interval = 5
         self.batch_size = 50
 
+        self.serverUrl = "ws://192.168.1.23/:8005"
+        self.webClient = WebClient(self.serverUrl)
+        self.webClient.start_server_connection()
+
     def _run_socket_server(self):
         asyncio.run(self.server.initiate_socket_server())
-
-
 
 ######################################################################
 ################# Incoming client messages management ################
@@ -51,7 +54,6 @@ class AthenaAgent:
             sleep(sleep_time)
 
     def _process_batch(self, batch):
-        # Implement your batch processing logic here
 
         formated_batch = {
             'sendDate': str(datetime.now()),
@@ -70,12 +72,9 @@ class AthenaAgent:
         self.socket_server_thread.start()
         self.message_processing_threads.start()
 
-# Usage
 if __name__ == "__main__":
     agent = AthenaAgent()
     agent.start()
-    sleep(1)
-    logger.info("hello")
 
 while True:
     sleep(5)

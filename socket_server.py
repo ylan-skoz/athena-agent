@@ -5,8 +5,6 @@ import socket
 from queue import Queue
 from datetime import datetime
 from time import time
-
-
 from agent_logger import setup_logger
 from message_structure import MESSAGE_STRUCTURE
 
