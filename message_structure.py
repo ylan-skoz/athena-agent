@@ -1,7 +1,3 @@
-
-
-
-
 class MESSAGE_STRUCTURE:
     ID = "id"
 

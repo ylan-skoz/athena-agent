@@ -22,8 +22,8 @@ class AthenaAgent:
 
         # Webclient
         self.serverUrl = "ws://192.168.1.23:8085"
-        self.device_id = "d1c6b55d-4770-4f8d-8f7c-6998500a7785"
-        self.api_key = "a415afaf-68d8-4b1c-b09e-42428f64162c"
+        self.device_id = "534a557c-4eb0-45ee-a62c-7095c91cfea0"
+        self.api_key = "b7a8116f-b38e-4fbe-aa98-e821bf348bc9"
         self.webClient = WebClient(server_url=self.serverUrl, device_id=self.device_id, api_key=self.api_key)
         self.web_client_thread = Thread(target=self.webClient.start, daemon=True)
 
