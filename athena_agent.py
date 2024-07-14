@@ -8,6 +8,11 @@ from agent_logger import setup_logger
 from web_client import WebClient
 from time import sleep
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # This line brings all environment variables from .env into os.environ
+
 logger = setup_logger('socket_logger', 'agent.log')
 
 class AthenaAgent:
@@ -22,8 +27,8 @@ class AthenaAgent:
 
         # Webclient
         self.serverUrl = "ws://192.168.1.23:8085"
-        self.device_id = "534a557c-4eb0-45ee-a62c-7095c91cfea0"
-        self.api_key = "b7a8116f-b38e-4fbe-aa98-e821bf348bc9"
+        self.device_id = os.environ['DEVICE_ID']
+        self.api_key = os.environ['API_KEY']
         self.webClient = WebClient(server_url=self.serverUrl, device_id=self.device_id, api_key=self.api_key)
         self.web_client_thread = Thread(target=self.webClient.start, daemon=True)
 

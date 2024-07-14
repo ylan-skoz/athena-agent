@@ -9,7 +9,7 @@ from agent_logger import setup_logger
 from message_structure import MESSAGE_STRUCTURE
 
 # Set up custom logger
-logger = setup_logger('socket_logger', 'agent.log')
+logger = setup_logger('server_logger', 'agent.log')
 
 
 class SocketServer:
@@ -26,14 +26,14 @@ class SocketServer:
         
         # Wait for client identification
         client_id = str(id(websocket))
+        logger.info(f"Client {client_id} connected")
        
-
         # Register the client
         self.clients[client_id] = websocket
         try:
             async for message in websocket:
                 data = json.loads(message)
-                logger.debug(f"Received data from {client_id}: {data} in handle_client")
+                logger.info(f"Received data from {client_id}: {data} in handle_client")
 
                 self.message_queue.put(data)
 
@@ -43,9 +43,9 @@ class SocketServer:
                     MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.NAME: MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.RECEIVED
                     }
                 await self.clients[client_id].send(json.dumps(acknowledge))
+                logger.warning(f"Acknowledge sent to client {client_id}")
         except Exception:
             logger.exception(f"Error when receiving message from client {client_id}")
-
 
         finally:
             # Unregister the client

@@ -3,3 +3,4 @@ __pycache__/
 agent.log
 agent.log.*
 *.pyc
+.env
