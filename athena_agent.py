@@ -7,6 +7,7 @@ from datetime import datetime
 from agent_logger import setup_logger
 from web_client import WebClient
 from time import sleep
+from message_structure import MESSAGE_STRUCTURE
 
 from dotenv import load_dotenv
 import os
@@ -65,12 +66,26 @@ class AthenaAgent:
 
     def _process_batch(self, batch):
 
+        telemetry_list = []
+        notification_list = []
+        for message in batch:
+            if 'telemetry' in message:
+                telemetry_list.append(message['telemetry'])
+            elif 'notification' in message:
+                notification_list.append(message['notification'])
+
+
         formated_batch = {
-            'sendDate': str(datetime.now()),
-            'data': batch
+            MESSAGE_STRUCTURE.TYPE.NAME: MESSAGE_STRUCTURE.TYPE.DATA,
+            MESSAGE_STRUCTURE.DEVICE_ID: self.device_id,
+            'payload':
+            {
+                'telemetry': telemetry_list,
+                'notification': notification_list
+            }
         }
 
-        logger.info(f"Processing batch of {len(batch)} messages. Message sent to server is: {formated_batch}")
+        asyncio.run(self.webClient.send(formated_batch))
         # Example: for message in batch: process(message)
 
 

@@ -1,8 +1,11 @@
 class MESSAGE_STRUCTURE:
+    DEVICE_ID = "device_id"
     ID = "id"
 
     class TYPE:
         NAME = "type"
+
+        DATA = 'data'
 
         PING = "ping"
         TELEMETRY = "telemetry"
