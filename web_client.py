@@ -37,7 +37,7 @@ class WebClient:
 
             logger.info(f"Sent message: {message}")
         else:
-            logger.error("WebSocket connection not established")
+            logger.error("Can't send message, websocket connection not established")
 
     async def receive(self):
         if self.websocket:
@@ -49,7 +49,8 @@ class WebClient:
                 logger.warning("WebSocket connection closed")
                 await self.reconnect()
         else:
-            logger.error("WebSocket connection not established")
+            logger.error("Can't receive message, websocket connection not established")
+            sleep(1)
 
     async def reconnect(self):
         logger.info("Attempting to reconnect...")

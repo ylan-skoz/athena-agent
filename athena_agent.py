@@ -18,6 +18,7 @@ logger = setup_logger('socket_logger', 'agent.log')
 
 class AthenaAgent:
     def __init__(self) -> None:
+        logger.info("Initializing Athena Agent")
         self.message_queue = Queue()
         self.server = SocketServer(self.message_queue)
         self.socket_server_thread = Thread(target=self._run_socket_server, daemon=True)
@@ -27,7 +28,7 @@ class AthenaAgent:
         self.batch_size = 50
 
         # Webclient
-        self.serverUrl = "ws://192.168.1.23:8085"
+        self.serverUrl = "ws://localhost:8085"# "ws://192.168.1.23:8085"
         self.device_id = os.environ['DEVICE_ID']
         self.api_key = os.environ['API_KEY']
         self.webClient = WebClient(server_url=self.serverUrl, device_id=self.device_id, api_key=self.api_key)
@@ -94,8 +95,11 @@ class AthenaAgent:
             asyncio.run(self.server.broadcast(message))
 
     def start(self):
+        logger.info("Starting web socket server")
         self.socket_server_thread.start()
+        logger.info("Starting message processing thread")
         self.message_processing_threads.start()
+        logger.info("Starting web client thread")
         self.web_client_thread.start()
 
 if __name__ == "__main__":
