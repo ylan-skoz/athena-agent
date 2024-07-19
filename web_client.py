@@ -3,16 +3,18 @@ import websockets
 from time import sleep
 import json
 from agent_logger import setup_logger
+from message_structure import MESSAGE_STRUCTURE
 
 
 logger = setup_logger('socket_logger', 'agent.log')
 
 class WebClient:
-    def __init__(self, server_url, device_id, api_key):
+    def __init__(self, server_url, device_id, api_key, downstream_message_queue):
         self.server_url = server_url
         self.device_id = device_id
         self.api_key = api_key
         self.websocket = None
+        self.downstream_message_queue = downstream_message_queue
 
     async def connect(self):
         try:
@@ -34,8 +36,6 @@ class WebClient:
         if self.websocket:
             payload=json.dumps(message)
             await self.websocket.send(payload)
-
-            logger.info(f"Sent message: {message}")
         else:
             logger.error("Can't send message, websocket connection not established")
 
@@ -62,6 +62,10 @@ class WebClient:
         while True:
             try:
                 message = await self.receive()
+                if message:
+                    message = json.loads(message)
+                    self.downstream_message_queue.put(message)
+
                 # Process the received message here
             except Exception as e:
                 logger.error(f"Error in run loop: {e}")

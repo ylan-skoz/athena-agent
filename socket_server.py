@@ -17,10 +17,10 @@ class SocketServer:
 
     # This will store our connected clients
     clients = {}
-    message_queue: Queue
+    upstream_message_queue: Queue
 
-    def __init__(self, message_queue):
-        self.message_queue = message_queue
+    def __init__(self, upstream_message_queue):
+        self.upstream_message_queue = upstream_message_queue
 
     async def handle_client(self, websocket, path):
         
@@ -35,11 +35,11 @@ class SocketServer:
                 data = json.loads(message)
                 logger.info(f"Received data from {client_id}: {data} in handle_client")
 
-                self.message_queue.put(data)
+                self.upstream_message_queue.put(data)
 
                 acknowledge = {
                     MESSAGE_STRUCTURE.TYPE.NAME: MESSAGE_STRUCTURE.TYPE.ACKNOWLEDGE,
-                    #MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
+                    # MESSAGE_STRUCTURE.ID: data[MESSAGE_STRUCTURE.ID],
                     MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.NAME: MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.RECEIVED
                     }
                 await self.clients[client_id].send(json.dumps(acknowledge))

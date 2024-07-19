@@ -11,6 +11,7 @@ class MESSAGE_STRUCTURE:
         TELEMETRY = "telemetry"
         COMMAND = "command"
         NOTIFICATION = "notification"
+        NOTIFICATION_RESPONSE = "notification_response"
         ACKNOWLEDGE = "acklowledge"
 
 
