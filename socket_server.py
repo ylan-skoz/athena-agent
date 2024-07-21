@@ -43,13 +43,17 @@ class SocketServer:
                     MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.NAME: MESSAGE_STRUCTURE.ACKNOWLEDGE.STATUS.RECEIVED
                     }
                 await self.clients[client_id].send(json.dumps(acknowledge))
-        except Exception:
-            logger.exception(f"Error when receiving message from client {client_id}")
-
+        except websockets.exceptions.ConnectionClosed:
+            logger.info(f"Client {client_id} disconnected")
+        except json.JSONDecodeError:
+            logger.error(f"Invalid JSON received from client {client_id}")
+        except Exception as e:
+            logger.exception(f"Error when handling client {client_id}: {str(e)}")
         finally:
             # Unregister the client
-            pass
-            #del self.clients[client_id]
+            if client_id in self.clients:
+                del self.clients[client_id]
+                logger.info(f"Client {client_id} has been unregistered")
 
     # Broadcast message to all connected clients
     async def broadcast(self, message):
